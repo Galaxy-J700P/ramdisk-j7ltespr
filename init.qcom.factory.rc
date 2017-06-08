@@ -270,6 +270,7 @@ on mmi
     start wcnss-service
     start qcom-post-boot
     start rmt_storage
+    start qcom-c_main-sh
     start irsc_util
     start qcamerasvr
     start qcomsysd
