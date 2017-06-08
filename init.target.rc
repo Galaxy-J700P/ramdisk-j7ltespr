@@ -199,6 +199,7 @@ on charger
     chmod 0664 /sys/class/power_supply/bms/voltage_ocv
     start vm_bms
     load_system_props
+    start qcom-post-boot
 
 service imsqmidaemon /system/bin/imsqmidaemon
     class main
